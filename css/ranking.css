@@ -1,4 +1,90 @@
 /* Ranking  css */
 .ranking {
   background-color: var(--bg-color-gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 22px 0;
+}
+
+.ranking__card {
+  width: 181px;
+  background-color: var(--color-white);
+}
+
+.ranking__link {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.ranking__media {
+  position: relative;
+  height: 116px;
+  overflow: hidden;
+  background-color: var(--color-white);
+}
+
+.ranking__position {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 24px;
+  color: var(--color-white);
+  text-align: center;
+  letter-spacing: 3px;
+  background-color: var(--color-blue-primary);
+}
+
+.ranking__image {
+  width: 100%;
+  height: auto;
+}
+
+.ranking__content {
+  display: grid;
+  padding: 7px 10px;
+  background-color: var(--color-white);
+}
+
+.ranking__title {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.4;
+  letter-spacing: 0%;
+  height: 60px;
+}
+
+.ranking__time {
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: var(--color-gray-secondary);
+}
+
+.ranking__company {
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 0%;
+  color: var(--color-gray-secondary);
+
+  &:hover {
+    color: var(--color-black);
+  }
+}
+
+.ranking__stats {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: var(--color-gray-secondary);
 }
