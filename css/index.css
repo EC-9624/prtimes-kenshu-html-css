@@ -66,7 +66,13 @@
   color: #a2a2a2;
 }
 
-.release-list__load {
+.release-list__load-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.release-list__load-button {
   width: 110px;
   height: 38px;
   border-radius: 2px;
