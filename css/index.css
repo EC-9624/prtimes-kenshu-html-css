@@ -20,11 +20,11 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
+  margin-top: 10px;
 }
 
 .release-card {
   width: 380px;
-  /* height: 118px; */
   padding: 16px 0;
   border-bottom: 1px solid var(--color-gray);
 }
@@ -63,7 +63,7 @@
   line-height: 100%;
   letter-spacing: 0%;
   vertical-align: middle;
-  color: #a2a2a2;
+  color: var(--color-gray-secondary);
 }
 
 .release-list__load-wrapper {
