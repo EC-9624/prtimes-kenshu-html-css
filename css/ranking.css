@@ -31,7 +31,7 @@
   top: 0;
   left: 0;
   width: 24px;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   font-size: 18px;
   font-style: italic;
   font-weight: 700;
