@@ -2,12 +2,18 @@
   --color-blue-primary: #24436f;
   --color-blue-secondary: #345584;
   --color-blue-accent: #3081c9;
+  --color-blue-focus: #0a53be;
+  --clor-blue-hover: #5ca2da;
   --color-white: #fff;
   --color-black: #000;
+  --color-gray: #e4e4e4;
+  --color-gray-accent: #f1f1f1;
 
   --text-color-grey: #bfc9d7;
   --text-color-black: #3b3b3b;
   --font-default: Hiragino Kaku Gothic ProN, Meiryo, sans-serif;
+
+  --shadow-button: #0000003d;
 }
 
 /* CSS Resets  */
