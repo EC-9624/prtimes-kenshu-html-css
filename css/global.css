@@ -1,0 +1,78 @@
+:root {
+  --color-blue-primary: #24436f;
+  --color-blue-secondary: #345584;
+  --color-blue-accent: #3081c9;
+  --color-white: #fff;
+  --color-black: #000;
+
+  --text-color-grey: #bfc9d7;
+  --text-color-black: #3b3b3b;
+  --font-default: Hiragino Kaku Gothic ProN, Meiryo, sans-serif;
+}
+
+/* CSS Resets  */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-default);
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Form element resets */
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: inherit;
+}
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  box-shadow: none;
+  background-clip: padding-box;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
