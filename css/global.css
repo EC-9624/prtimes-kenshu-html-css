@@ -10,9 +10,12 @@
   --color-gray-secondary: #a2a2a2;
   --color-gray-accent: #f1f1f1;
 
+  --bg-color-gray: #f2f2f2;
+
   --text-color-grey: #bfc9d7;
   --text-color-black: #3b3b3b;
   --font-default: Hiragino Kaku Gothic ProN, Meiryo, sans-serif;
+  --font-roboto: Roboto, sans-serif;
 
   --shadow-button: #0000003d;
 }
