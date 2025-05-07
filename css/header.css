@@ -91,7 +91,6 @@
   box-sizing: border-box;
 
   &:focus {
-
     border-color: var(--color-blue-focus);
     border-style: solid;
     border-width: 2px 0 2px 2px;
