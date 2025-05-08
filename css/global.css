@@ -11,8 +11,10 @@
   --color-gray-accent: #f1f1f1;
 
   --bg-color-gray: #f2f2f2;
+  --bg-footer: #fafafa;
 
   --text-color-grey: #bfc9d7;
+  --text-color-dark-gray: #797979;
   --text-color-black: #3b3b3b;
   --font-default: Hiragino Kaku Gothic ProN, Meiryo, sans-serif;
   --font-roboto: Roboto, sans-serif;
@@ -85,4 +87,15 @@ button {
   border: none;
   cursor: pointer;
   padding: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
 }
