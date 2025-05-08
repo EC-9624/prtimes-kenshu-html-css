@@ -1,4 +1,4 @@
-footer {
+.footer {
   background-color: var(--bg-footer);
 }
 
@@ -59,7 +59,7 @@ footer {
   }
 }
 
-small {
+.copyright-text {
   font-weight: 400;
   font-size: 11px;
   vertical-align: middle;
